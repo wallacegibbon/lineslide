@@ -12,7 +12,8 @@ go build -ldflags -H=windowsgui
 
 ## Prebuild
 
-There is a prebuild binary for MS Windows.
+There is a prebuild binary for MS Windows. [Click][2] to download it.
 
 
 [1]: https://github.com/andlabs/ui/
+[2]: https://github.com/wallacegibbon/lineslide/blob/master/prebuild/lineslide.exe.bz2?raw=true
