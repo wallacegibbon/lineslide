@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-var information []string = []string{"Choose file for slide"}
+var information []string = []string{"Click \"Choose\" to choose a file"}
 var window *ui.Window
 var info *ui.Label
 var periodSecond = 2

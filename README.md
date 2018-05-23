@@ -5,16 +5,18 @@ This program shows contents of a plain text file line by line in a certain perio
 The program is pretty simple to use, and this is how it looks:
 ![software appearence](./doc/eg.png)
 
-After you started the software, choosed the file to display, then you can put it into the corner of your screen, then start your daily work.
+Start the software, choose the file to display, then you can put it into the corner of your screen, and start your daily work.
 
-![The way to use it](./doc/eg.gif)
+![The running software](./doc/eg.gif)
 
-This program is based on the [andlabs/ui][1] project(A Platform-native GUI library for Go). It's tested on Linux(4.4.0 x86_64) and MS Windows(Windows7 x64).
+If you want to change the frequency(defaults to 2 seconds for 1 line), just write down the time you want(have to be an interger) and click "Change" button.
+
+This program support Windows and Linux. It's tested on Linux4.4.0 x86_64 and Windows7 x64.
 
 
-## Building
+## Build
 
-First you need to have [Go language][3] tools installed. For Chinese users, you can get it from [here][4]. After that, enter the program directory, build it with this:
+First you need to have [Go language][1] tools installed. For Chinese users, you can get it from [here][2]. After that, enter the program directory, build it with this:
 
 ```sh
 go build
@@ -27,10 +29,10 @@ go build -ldflags -H=windowsgui
 
 ## Prebuild
 
-There is a prebuild binary for MS Windows. [Click][2] to download it.
+There is a prebuild binary for MS Windows. [Click][3] to download it.
 
 
-[1]: https://github.com/andlabs/ui/
-[2]: https://github.com/wallacegibbon/lineslide/blob/master/prebuild/lineslide.exe.bz2?raw=true
-[3]: https://golang.org/
-[4]: https://golang.google.cn/
+[1]: https://golang.org/
+[2]: https://golang.google.cn/
+[3]: https://github.com/wallacegibbon/lineslide/blob/master/prebuild/lineslide.exe.bz2?raw=true
+
