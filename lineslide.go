@@ -36,7 +36,7 @@ func windowFunc() {
 	box.Append(fbox, false)
 
 	pbox := ui.NewHorizontalBox()
-	update := ui.NewButton("Update")
+	update := ui.NewButton("Change")
 	pbox.Append(update, false)
 	period := ui.NewEntry()
 	pbox.Append(period, false)
